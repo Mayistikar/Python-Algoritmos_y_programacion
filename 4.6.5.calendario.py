@@ -105,9 +105,7 @@ def entre_fechas(d1,m1,a1,d2,m2,a2):
 
 	print "Han pasado "+str(anos)+" anos con "+str(meses)+" meses con "+str(diasrest)+" dias!!!"
 
-
-
-
+"---------------------MENU----------------------"
 
 print "\n""BIENVENIDO CALENDARIO""\n"
 print "1)""Quieres saber si un ano es biciesto?""\n"
