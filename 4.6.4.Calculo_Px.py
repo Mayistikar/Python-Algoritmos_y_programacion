@@ -67,11 +67,10 @@ def recta():
 	print "\n""Por favor ingresar datos de las rectas""\n"
 	m1=input("La pendiente de la Recta 1 es: ")
 	(x1,y1)=input ("Por favor ingrese el origen de la Recta 1 --- tipo --- x,y --> 2,5 --> ")
-	print x1
-	print y1
 	m2=input("La pendiente de la Recta 2 es: ")
 	(x2,y2)=input ("Por favor ingrese el origen de la Recta 2 --- tipo --- x,y --> 2,5 --> ")
-
+	if m1==m2:
+		return "Las rectas son paralelas y nunca se tocan"
 	b1=(y1-(m1*x1))
 	b2=(y2-(m2*x2))
 	b2=float(b2)
