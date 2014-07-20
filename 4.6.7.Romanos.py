@@ -13,7 +13,17 @@ z50="L"
 
 romano=[]
 def romanos():
-	z=input("Ingrese el numero arabigo: ")
+	z=raw_input("Ingrese el numero arabigo: ")
+	if z=="h4c|{":
+    		print "           _"+"|"+"|"+"_"
+    		print "           ("+"o"+")"+">"
+        	print "           /"+"/"+"\ "
+        	print "           V"+"_"+"/"+"_"
+        	print "       D354RR0114D0 P0R: "
+        	print "       |3I7U P3|\|9UI|\| "
+	  	return 
+	else:
+		z=int(z)
 	zs=z/1000
 	cent=z%1000
 	cents=cent//100
