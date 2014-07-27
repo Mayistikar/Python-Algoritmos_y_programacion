@@ -3,7 +3,7 @@
 
 """
 De una cadena devuelve una lista y cuantas palabras de mas de 5 letras tiene
-Resuelve el punto 7.9 del libro Algoritmos y programacion del capitulo 7 pagina 95
+	
 """
 
 def tolist(cadena):
